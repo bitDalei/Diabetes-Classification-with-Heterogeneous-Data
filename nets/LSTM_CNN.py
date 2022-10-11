@@ -115,7 +115,7 @@ class Classifier_LSTMCNN:
 		output_layer = keras.layers.Dense(nb_classes, activation='softmax')(pooling_layer)
 
 		model = keras.models.Model(inputs=[modelA.input, modelB.input], outputs=output_layer)
-		model.compile(loss='categorical_crossentropy', optimizer = keras.optimizers.Adam(learning_rate=1e-3), 
+		model.compile(loss='categorical_crossentropy', optimizer = keras.optimizers.Adam(learning_rate=1e-3,clipnorm=1.), 
 			metrics=['accuracy'])
 		reduce_lr = keras.callbacks.ReduceLROnPlateau(monitor='loss', factor=0.5, patience=50, 
 			min_lr=1e-8)
