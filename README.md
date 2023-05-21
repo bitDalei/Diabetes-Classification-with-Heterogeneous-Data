@@ -19,10 +19,10 @@ F1-score: **94.939%**
 G-mean: **94.937%**
 
 ### How does it works?
-The networks takes into two distint type of data, FGM(Flash Glucose Monitoring) data(continuous) and Biomarkers data(discrete), for FGM data, LSTM with CBAM attention is carried out, for Biomarkers obtained from EMR(Electric Medical Record), CNN is construted. Feature maps from the two networks are integrated with self-attention and do further classification
+The network takes two distinct types of data, namely FGM (Flash Glucose Monitoring) data, which is continuous, and biomarker data, which is discrete. For FGM data, an LSTM with CBAM attention is used, while for biomarkers obtained from EMR (Electronic Medical Record), a CNN is constructed. The feature maps from both networks are then integrated with self-attention and used for further classification.
 
 ### What's the data used?
-Unfortunately, data cannot be made public due to confidential agreement. However, in order to make this implementation helpful for other researchers, a simulated data is provided. Note that all of the data is generated randomly but are in the same form as we actually used.
+Unfortunately, we cannot make the data public due to a confidential agreement. However, to make this implementation helpful for other researchers, we have provided simulated data. Please note that all of the data is randomly generated, but it is in the same form as the actual data used.
 [training/testing data](https://huggingface.co/datasets/seidouz/Diabetes)
 You can use 
 ```python
