@@ -7,12 +7,15 @@ Official implementation for [A dual-attention based coupling network for diabete
 </p>
 
 ### What is the purpose of the study?
-Classify the two types of diabetes, T1DM and T2DM
+Classification of two types of diabetes: T1DM and T2DM.
 
 ### What are the results?
 Accuracy: **95.835%(SOTA)**
+
 MCC: **91.333%**
+
 F1-score: **94.939%**
+
 G-mean: **94.937%**
 
 ### How does it works?
