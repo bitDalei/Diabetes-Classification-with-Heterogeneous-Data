@@ -3,7 +3,7 @@
 Official implementation for [A dual-attention based coupling network for diabetes classification with heterogeneous data(BI 2023)](https://www.sciencedirect.com/science/article/pii/S1532046423000217?casa_token=ihSFgzMaz7UAAAAA:bN4cmQRF6GsbM-MKWi7drP7omjG-m7AktF70BPvvF8HEfOceIW6Dm6DL0gTtPhkvbvavT7ifbUI)
 
 <p align="center">
-  <img src="https://github.com/bitDalei/Diabetes-Classification-with-Heterogeneous-Data/blob/main/others/graphical%20structure.png" width="150" alt="network structure">
+  <img src="https://github.com/bitDalei/Diabetes-Classification-with-Heterogeneous-Data/blob/main/others/graphical%20structure.png" width="1000" alt="network structure">
 </p>
 
 ### What is the purpose of the study?
