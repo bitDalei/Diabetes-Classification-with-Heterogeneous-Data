@@ -55,3 +55,6 @@ author = {Lei Wang and Zhenglin Pan and Wei Liu and Junzheng Wang and Linong Ji 
 keywords = {Diabetes types classification, Dual-attention, Coupling network, Heterogeneous data},
 }
 ```
+
+## Co-worker for this repo:
+@Seido
