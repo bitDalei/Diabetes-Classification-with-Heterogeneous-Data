@@ -59,4 +59,4 @@ keywords = {Diabetes types classification, Dual-attention, Coupling network, Het
 ```
 
 ## Co-worker for this repo
-@zhenglinpan
+[@Seidou](https://github.com/ZhenglinPan)
