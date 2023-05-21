@@ -23,7 +23,9 @@ The network takes two distinct types of data, namely FGM (Flash Glucose Monitori
 
 ### What's the data used?
 Unfortunately, we cannot make the data public due to a confidential agreement. However, to make this implementation helpful for other researchers, we have provided simulated data. Please note that all of the data is randomly generated, but it is in the same form as the actual data used.
+
 [training/testing data](https://huggingface.co/datasets/seidouz/Diabetes)
+
 You can use 
 ```python
 from datasets import load_dataset
@@ -56,5 +58,5 @@ keywords = {Diabetes types classification, Dual-attention, Coupling network, Het
 }
 ```
 
-## Co-worker for this repo:
-@Seidou
+## Co-worker for this repo
+@zhenglinpan
