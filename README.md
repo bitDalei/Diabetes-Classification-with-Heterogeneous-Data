@@ -38,8 +38,9 @@ to import them into your codes.
 - column 1-576: FGM data
 - column 576-587: Biomarkers data
   
-  
-You might notice some of consecutive rows have same biomarkers, this means that these few rows are contributed by the same patient. There are also some missing value in biomarkers, presented as '0'.
+Please refer to the paper for more detailed explanation of data.
+
+A patient might provide a series of 14-day-long FGM data points(~1300 points), it is divided into two 6-day-long(576 points) series and consirdered as two records. In our dataset, each row is a record for training. You might notice some of consecutive rows have same biomarkers, this means that these few rows are contributed by the same patient. There are also some missing value in biomarkers, presented as '0'.
 
 ## Citing
 Please cite us if our work has been involed.
